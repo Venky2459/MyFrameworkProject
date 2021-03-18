@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="65487" started-at="2021-03-17T07:00:45Z" finished-at="2021-03-17T07:01:50Z">
+  <suite name="TestSuite" duration-ms="68908" started-at="2021-03-18T01:47:20Z" finished-at="2021-03-18T01:48:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="65487" started-at="2021-03-17T07:00:45Z" finished-at="2021-03-17T07:01:50Z">
+    <test name="test2" duration-ms="68908" started-at="2021-03-18T01:47:20Z" finished-at="2021-03-18T01:48:29Z">
       <class name="myPackage.Assignment">
-        <test-method status="PASS" signature="test()[pri:0, instance:myPackage.Assignment@4386f16]" name="test" duration-ms="65398" started-at="2021-03-17T07:00:45Z" finished-at="2021-03-17T07:01:50Z">
+        <test-method status="PASS" signature="PlacingOrder()[pri:0, instance:myPackage.Assignment@3fee9989]" name="PlacingOrder" duration-ms="68827" started-at="2021-03-18T01:47:20Z" finished-at="2021-03-18T01:48:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
+        </test-method> <!-- PlacingOrder -->
       </class> <!-- myPackage.Assignment -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- test2 -->
+  </suite> <!-- TestSuite -->
 </testng-results>
