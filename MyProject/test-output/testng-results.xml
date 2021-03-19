@@ -2,16 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="TestSuite" duration-ms="68908" started-at="2021-03-18T01:47:20Z" finished-at="2021-03-18T01:48:29Z">
+  <suite name="TestSuite" duration-ms="14394" started-at="2021-03-19T07:39:47Z" finished-at="2021-03-19T07:40:01Z">
     <groups>
     </groups>
-    <test name="test2" duration-ms="68908" started-at="2021-03-18T01:47:20Z" finished-at="2021-03-18T01:48:29Z">
-      <class name="myPackage.Assignment">
-        <test-method status="PASS" signature="PlacingOrder()[pri:0, instance:myPackage.Assignment@3fee9989]" name="PlacingOrder" duration-ms="68827" started-at="2021-03-18T01:47:20Z" finished-at="2021-03-18T01:48:29Z">
+    <test name="test" duration-ms="14394" started-at="2021-03-19T07:39:47Z" finished-at="2021-03-19T07:40:01Z">
+      <class name="com.testCases.TC0001_Login">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testCases.TC0001_Login@77cd7a0]" name="setUp" is-config="true" duration-ms="9957" started-at="2021-03-19T07:39:47Z" finished-at="2021-03-19T07:39:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- PlacingOrder -->
-      </class> <!-- myPackage.Assignment -->
-    </test> <!-- test2 -->
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:com.testCases.TC0001_Login@77cd7a0]" name="verifyLogin" duration-ms="2848" started-at="2021-03-19T07:39:57Z" finished-at="2021-03-19T07:40:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testCases.TC0001_Login@77cd7a0]" name="tearDown" is-config="true" duration-ms="876" started-at="2021-03-19T07:40:00Z" finished-at="2021-03-19T07:40:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testCases.TC0001_Login -->
+    </test> <!-- test -->
   </suite> <!-- TestSuite -->
 </testng-results>
